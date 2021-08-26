@@ -1,5 +1,6 @@
-import React from "react";
+import React  from "react";
 import "./../styles/App.css";
+import { useState } from "react";
 
 function ID() {
 	let id = 0;
@@ -94,6 +95,7 @@ function App() {
 
 	return (
 		<div id="main">
+
 			<textarea
 				id="task"
 				onChange={function (event) {
